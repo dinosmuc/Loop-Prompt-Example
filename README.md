@@ -16,4 +16,4 @@ A Python tool that enables chained prompt processing through OpenAI's API. This 
  - Numbered lists
  - Raw text
  **Detailed Logging**: Shows progress and results at each step
-## Example Flow
+
