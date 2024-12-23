@@ -1,4 +1,4 @@
-#Loop Prompt Impilmentation
+##Loop Prompt Impilmentation
 
 A Python tool that enables chained prompt processing through OpenAI's API. This tool processes multiple items through a structured prompt template using GPT-4o, with comprehensive token tracking and detailed logging.
 
