@@ -40,15 +40,6 @@ The processor takes two main inputs:
   - Combined string output with dividers
   - Total token usage statistics
 
-## Example Use Case
-
-The included template is designed for market research and trend analysis, featuring:
-- Structured analysis framework
-- Definition and core concepts
-- Industry applications
-- Future trends
-- Market significance
-- Related concepts
 
 ## Output Format
 
