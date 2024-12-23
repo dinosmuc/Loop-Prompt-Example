@@ -9,7 +9,6 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 
-# Test prompt template for simulating a data analyst persona
 # This template is used for development and testing purposes only
 prompt_object_template = """
 Actor/Persona: A data analyst with expertise in market research and trend analysis.
@@ -30,8 +29,8 @@ Output Format: Structured analysis with clear sections for each aspect of the ke
 References: Include relevant industry sources and research papers when applicable.
 """
 
-# Test input data - Sample comma-separated topics for development
-# These topics are just examples and can be replaced with actual data
+
+# These topics are just examples and used for testing only
 previus_prompt_output = """
 Machine Learning Applications in Healthcare,
 Natural Language Processing for Customer Service,
