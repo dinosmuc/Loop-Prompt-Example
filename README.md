@@ -1,37 +1,43 @@
-## Loop Prompt Impilmentation
+
+## Requirements
+- Python 3.7+
+- OpenAI API key
+- Required packages:
+  - openai>=1.12.0
+  - python-dotenv>=1.0.1
+
+## Loop Prompt Implementation
 
 A Python tool that enables chained prompt processing through OpenAI's API. This tool processes multiple items through a structured prompt template using GPT-4o, with comprehensive token tracking and detailed logging.
 
-## What It Does
-
+### What It Does
 The processor takes two main inputs:
 1. Previous prompt output (a string containing multiple items/topics)
 2. A prompt object template that defines the analysis framework
 
 ### Core Features
 
-- **Input Standardization**
-  - Converts various text formats into Python lists using GPT-4o-mini
-  - Handles multiple input formats (lists, comma-separated text, raw text)
-  - Cleans and validates input data
+#### Input Standardization
+- Converts various text formats into Python lists using GPT-4o-mini
+- Handles multiple input formats (lists, comma-separated text, raw text)
+- Cleans and validates input data
 
-- **Iterative Processing**
-  - Processes each item individually through GPT-4o
-  - Maintains context consistency across iterations
-  - Tracks token usage for both input and output
+#### Iterative Processing
+- Processes each item individually through GPT-4o
+- Maintains context consistency across iterations
+- Tracks token usage for both input and output
 
-- **Comprehensive Logging**
-  - Detailed progress tracking for each processing step
-  - Token usage statistics (input/output tokens)
-  - Clear separation between items with formatted dividers
+#### Comprehensive Logging
+- Detailed progress tracking for each processing step
+- Token usage statistics (input/output tokens)
+- Clear separation between items with formatted dividers
 
-- **Structured Output**
-  - Returns both individual results and combined output
-  - Maintains formatting consistency
-  - Includes processing statistics
+#### Structured Output
+- Returns both individual results and combined output
+- Maintains formatting consistency
+- Includes processing statistics
 
-## Technical Details
-
+### Technical Details
 - Uses OpenAI's API with GPT-4o and GPT-4o-mini models
 - Implements environment variable management through dotenv
 - Provides detailed error handling and input validation
@@ -40,9 +46,7 @@ The processor takes two main inputs:
   - Combined string output with dividers
   - Total token usage statistics
 
-
-## Output Format
-
+### Output Format
 Returns a list containing:
 1. List of individual processed responses
 2. Combined output string with dividers
